@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gujarat Cancer Treatment Organization</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="logo" aria-label="Gujarat Cancer Treatment Organization logo">
+    <svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><ellipse cx="28" cy="34" rx="16" ry="20" fill="#fff" stroke="#c8004b" stroke-width="4"/><path d="M16,28 Q28,6 40,28" fill="none" stroke="#c8004b" stroke-width="4"/><path d="M28,44 Q28,54 18,44 Q8,34 28,24 Q48,34 38,44 Q28,54 28,44" fill="none" stroke="#c8004b" stroke-width="2"/></svg>
+    <span>GCTO</span>
+  </div>
+  <nav aria-label="Primary navigation">
+    <a href="#about">About</a>
+    <a href="#cause">Mission</a>
+    <a href="#impact">Impact</a>
+    <a href="#prevention">Prevention</a>
+    <a href="#donate">Donate</a>
+    <a href="#team">Team</a>
+    <a href="#donors">Donors</a>
+    <a href="#updates">News</a>
+    <a href="#stories">Stories</a>
+    <a href="#contact">Contact</a>
+    <a href="#faq">FAQ</a>
+    <button class="dark-toggle-btn" aria-label="Toggle dark mode" id="darkToggleBtn">🌓</button>
+  </nav>
+</header>
+
+<div class="section-wrap">
+<section class="hero" id="home" tabindex="-1">
+  <div class="hero-content">
+    <h1>Gujarat Cancer Treatment Organization</h1>
+    <h2>Fighting Cancer, Saving Lives</h2>
+    <p>Join our mission to provide care and hope for cancer patients across Gujarat.</p>
+    <button class="cta" onclick="window.scrollTo({top:document.getElementById('donate').offsetTop-70,behavior:'smooth'});" aria-label="Donate now">Donate Now</button>
+  </div>
+</section>
+
+<section id="about" tabindex="-1">
+  <h2>About Us</h2>
+  <p>
+    The <b>Gujarat Cancer Treatment Organization (GCTO)</b> is a non-profit dedicated to providing affordable cancer care, awareness, and support for patients across Gujarat.
+  </p>
+  <ul class="about-list">
+    <li><b>Address:</b> Gujarat University, Ahmedabad, Gujarat, India</li>
+    <li><b>Founded by:</b> Mr. Yuval J Vaghela, Mr. Tushar Bharwad & Mr. Kavya Limbad</li>
+  </ul>
+</section>
+
+<section id="cause" tabindex="-1">
+  <h2>Our Mission & Causes</h2>
+  <p>We are committed to defeating cancer through:</p>
+  <ul class="cause-list">
+    <li>Funding the treatment of underprivileged patients.</li>
+    <li>Running free cancer screening and early detection camps.</li>
+    <li>Providing counseling and emotional support.</li>
+    <li>Raising awareness about cancer prevention across Gujarat.</li>
+  </ul>
+</section>
+
+<section id="impact" tabindex="-1">
+  <h2>Our Impact & Cancer Data</h2>
+  <div class="stats-container">
+    <div class="stat" aria-label="Number of volunteers involved">
+      <span class="stat-value" data-count="200">0</span><br>Volunteers Involved
+    </div>
+    <div class="stat" aria-label="Amount of funds collected in rupees">
+      <span class="stat-value" data-count="4816000">₹0</span><br>Funds Collected
+    </div>
+    <div class="stat" aria-label="Number of patients in Gujarat">
+      <span class="stat-value" data-count="73482">0</span><br>Patients in Gujarat
+    </div>
+  </div>
+  <table class="data-table" aria-label="Cancer data statistics">
+    <tr><th>Cancer Statistics</th><th>Figures</th></tr>
+    <tr><td>Patients (Gujarat, 2022)</td><td>73,482</td></tr>
+    <tr><td>Estimated Average Cost per Patient</td><td>₹2,50,000 – ₹20,00,000</td></tr>
+    <tr><td>Oral Cancer (Most Common in Men)</td><td>11.28% of cases</td></tr>
+    <tr><td>Cancer Deaths (Gujarat, 2025)</td><td>40,356</td></tr>
+  </table>
+  <h3>Why Cancer Is Dangerous?</h3>
+  <ul class="about-list">
+    <li>Cancer can spread fast and affect any organ.</li>
+    <li>High mortality rate without early treatment.</li>
+    <li>Costly treatment strains families emotionally and financially.</li>
+  </ul>
+</section>
+
+<section id="prevention" tabindex="-1">
+  <h2>Prevention & Precautions</h2>
+  <ul class="steps-list">
+    <li>Avoid all types of tobacco and chewing gutkha.</li>
+    <li>Eat a balanced, plant-rich diet (fruits & vegetables).</li>
+    <li>Exercise regularly, maintain a healthy weight.</li>
+    <li>Limit alcohol consumption.</li>
+    <li>Use sunscreen, avoid prolonged sun exposure.</li>
+    <li>Go for regular cancer screenings if you're at risk.</li>
+    <li>Practice safe sex and immunize against Hepatitis B and HPV.</li>
+  </ul>
+</section>
+
+<section id="donate" tabindex="-1" class="donate-section">
+  <h2>Help Us Save More Lives</h2>
+  <p>Support our mission by donating. Your contribution goes directly to patient care and awareness initiatives.</p>
+  <div class="donate-details" aria-label="Bank and donation details">
+    <b>Bank Account Name:</b> Gujarat Cancer Treatment Organization<br />
+    <b>Account Number:</b> 012345678912<br />
+    <b>IFSC:</b> GCTOIN1234<br />
+    <b>Bank:</b> SBI, Gujarat University Branch<br />
+    <b>UPI ID:</b> gcto@sbi<br />
+    <b>Scan to donate:&nbsp;</b>
+    <span class="qr"><img loading="lazy" src="https://welcome-amethyst-mus9ngjiks.edgeone.app/IMG-20251114-WA0013.jpg" alt="Donate using UPI QR code" /></span>
+  </div>
+  <button class="cta" aria-label="Donate now" onclick="alert('Thank you for supporting our cause! (Demo for project only.)');">
+    Donate Now
+  </button>
+</section>
+
+<section id="team" tabindex="-1">
+  <h2>Our Team and Partners</h2>
+  <p>Meet our dedicated doctors and partner hospitals:</p>
+  <ul class="doctors-list">
+    <li>Dr. Shruti Mehta (Oncologist)</li>
+    <li>Dr. Ramesh Patel (Radiologist)</li>
+    <li>Dr. Neha Shah (Cancer Surgeon)</li>
+    <li>Dr. Shaan Shah (Consultant)</li>
+    <li>Ahmedabad Hope Hospital</li>
+    <li>Gujarat Care Medical Center</li>
+    <li>Cancer Aid Hospital</li>
+  </ul>
+</section>
+
+<section id="donors" tabindex="-1">
+  <h2>Top 10 Donors</h2>
+  <table class="donors-table" aria-label="Top donors list">
+    <thead>
+      <tr><th>Name</th><th>Amount Donated (INR)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Ankit Shah</td><td>₹2,00,000</td></tr>
+      <tr><td>Pratima Desai</td><td>₹1,75,000</td></tr>
+      <tr><td>Jignesh Bhatt</td><td>₹1,50,000</td></tr>
+      <tr><td>Sneha Joshi</td><td>₹1,20,000</td></tr>
+      <tr><td>Chetan Patel</td><td>₹1,12,000</td></tr>
+      <tr><td>Leena Parmar</td><td>₹1,08,000</td></tr>
+      <tr><td>Aditya Mehta</td><td>₹97,000</td></tr>
+      <tr><td>Nilesh Chauhan</td><td>₹95,000</td></tr>
+      <tr><td>Tejasvi Gandhi</td><td>₹92,000</td></tr>
+      <tr><td>Dhruv Sharma</td><td>₹90,000</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="updates" tabindex="-1" class="news-section">
+  <h2>Latest News & Updates</h2>
+  <ul>
+    <li><strong>Nov 2025:</strong> 5 new screening camps held across Surat, Vadodara, and Rajkot.</li>
+    <li><strong>Oct 2025:</strong> More than ₹20 lakh disbursed to 85 patients for chemotherapy.</li>
+    <li><strong>Sept 2025:</strong> GCTO signed MoU with Ahmedabad Hope Hospital for free radiology scans.</li>
+  </ul>
+</section>
+
+<section id="stories" tabindex="-1" class="stories-section">
+  <h2>Real Impact Stories</h2>
+  <div id="carousel" aria-live="polite" style="max-width:540px; margin:auto; overflow:hidden; box-shadow:0 4px 16px rgba(200,0,75,0.08); border-radius:1em;">
+    <div class="carousel-item" tabindex="0">
+      <strong>Meena Joshi:</strong> Received full funding for breast cancer surgery and has now returned to work.
+    </div>
+    <div class="carousel-item" tabindex="0">
+      <strong>Rajesh Patel:</strong> Supported with emotional counseling during recovery from oral cancer.
+    </div>
+    <div class="carousel-item" tabindex="0">
+      <strong>Fatima Sheikh:</strong> Early detection saved her life—now shares her story in awareness programs.
+    </div>
+  </div>
+  <div style="text-align:center; margin-top:1em;">
+    <button onclick="showSlide(-1)" class="cta" aria-label="Previous story" style="padding:0.3em 1em; margin:0 0.3em;">&#8592;</button>
+    <button onclick="showSlide(1)" class="cta" aria-label="Next story" style="padding:0.3em 1em; margin:0 0.3em;">&#8594;</button>
+  </div>
+</section>
+
+<section id="contact" tabindex="-1" class="contact-section">
+  <h2>Contact Us / Feedback</h2>
+  <form action="#" method="POST" aria-label="Contact form" style="max-width:520px; margin:auto; display:flex; flex-direction:column; gap:1em;">
+    <input type="text" name="name" placeholder="Your Name" required aria-required="true" />
+    <input type="email" name="email" placeholder="Your Email" required aria-required="true" />
+    <textarea name="message" rows="3" placeholder="Your Message" required aria-required="true"></textarea>
+    <button type="submit" class="cta" aria-label="Send message">Send</button>
+  </form>
+  <p style="text-align:center;margin-top:0.8em;color:var(--color-main);font-weight:500;">
+    For demo: Form will not send data, but you can connect backend for real submissions.
+  </p>
+</section>
+
+<section id="faq" tabindex="-1" class="faq">
+  <h2>Frequently Asked Questions</h2>
+  <details>
+    <summary>How can I volunteer?</summary>
+    <p>Fill out our contact form or email info@gcto.org for volunteer opportunities.</p>
+  </details>
+  <details>
+    <summary>Who is eligible for support?</summary>
+    <p>Any cancer patient in Gujarat experiencing financial hardship is eligible.</p>
+  </details>
+  <details>
+    <summary>How are funds utilized?</summary>
+    <p>All donations go towards screening camps, patient treatment, and awareness programs.</p>
+  </details>
+  <details>
+    <summary>Can I donate from outside India?</summary>
+    <p>Please contact us for international donation options and guidance.</p>
+  </details>
+</section>
+</div>
+
+<footer>
+  Gujarat Cancer Treatment Organization &copy; 2025.<br />
+  Address: Gujarat University, Ahmedabad, Gujarat, India
+</footer>
+
+<button id="float-donate-btn" aria-label="Donate now" title="Donate Now" onclick="window.scrollTo({top:document.getElementById('donate').offsetTop-70,behavior:'smooth'});">
+  Donate Now
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
